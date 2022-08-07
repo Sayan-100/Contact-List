@@ -13,35 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded());
 app.use(express.static('assets'));
 
-//middleware 1
-// app.use(function(req, res, next) {
-//     req.myName = "Sayan";
-//     // console.log("middleware 1 called");
-//     next();
-// })
 
-//middleware 2
-// app.use(function(req, res, next) {
-//     console.log('My name from middleware 2', req.myName);
-//     next();
-// })
-
-// var contactList = [{
-//         name: "Arapan sir",
-//         phone: "1111111111"
-//     },
-
-//     {
-//         name: "Coding Ninjas",
-//         phone: "2111222222"
-//     },
-
-//     {
-//         name: "Sayan",
-//         phone: "4444444444"
-//     }
-
-// ];
 
 
 app.get('/', function(req, res) {
@@ -65,10 +37,6 @@ app.get('/', function(req, res) {
     });
 
 
-    // return res.render('home', {
-    //     title: "My contacts list",
-    //     contact_list: contactList
-    // });
 
 });
 
@@ -105,12 +73,7 @@ app.get('/', function(req, res) {
 
 
 app.post('/create_contact', function(req, res) {
-    // return res.redirect('/practice');
-    // contactList.push({
-    //     name: req.body.name,
-    //     phone: req.body.phone
-    // });
-    // contactList.push(req.body);
+
     Contact.create({
         name: req.body.name,
         phone: req.body.phone
