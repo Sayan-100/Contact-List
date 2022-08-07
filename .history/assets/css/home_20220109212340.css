@@ -1,0 +1,31 @@
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    #page-heading {
+        text-align: center;
+        margin-top: 25px;
+        color: grey;
+    }
+    
+    li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        background-color: aqua;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+    
+    p {
+        display: inline-block;
+        padding-left: 2rem;
+        padding-right: 5rem;
+    }
+    
+    ul {
+        justify-content: space-between;
+    }

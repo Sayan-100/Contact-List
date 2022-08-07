@@ -1,0 +1,89 @@
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    #page-heading {
+        text-align: center;
+        margin-top: 25px;
+        color: grey;
+    }
+    
+    li {
+        list-style: none;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        background-color: #EA99D5;
+        margin: 4px;
+        /* width: 80%; */
+        font-weight: 600;
+        overflow: hidden;
+        color: white;
+        font-family: monaco;
+    }
+    
+    li:hover {
+        background-color: #BAABDA;
+    }
+    
+    input {
+        margin-right: 20px;
+        padding: 6px;
+        border: transparent;
+        border-bottom: 1px solid black;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    
+    button {
+        padding: 6px;
+        width: 200px;
+        height: 35px;
+        background-color: #C7B198;
+        font-family: monaco;
+        font-weight: 600;
+        color: white;
+        border: none;
+        font-size: 1rem;
+    }
+    
+    button:hover {
+        background-color: #CA965C;
+    }
+    
+    p {
+        display: inline-block;
+        padding-left: 2rem;
+        padding-right: 5rem;
+    }
+    
+    .details-contact-number {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    i {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    
+    #mb {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightblue;
+        padding: 0 50px;
+    }
+    
+    ul {
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .element {
+        width: 80%;
+    }
